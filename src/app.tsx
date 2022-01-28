@@ -1,12 +1,15 @@
 import React from "react";
 import RootRouter from "./modules/navigation";
+import AppWrapper from "./modules/navigation/components/app-wrapper";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <RootRouter />
+      <AppWrapper>
+        <RootRouter />
+      </AppWrapper>
     </div>
   );
-}
+};
 
 export default App;
