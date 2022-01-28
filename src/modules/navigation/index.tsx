@@ -7,7 +7,7 @@ import { RoutePath } from "./types";
 const RootRouter = () => {
   return (
     <Routes>
-      <Route path={RoutePath.HOME} element={Home} />
+      <Route path={RoutePath.HOME} element={<Home />} />
     </Routes>
   );
 };
